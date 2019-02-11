@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+#header_wrap,#section_wrap,#footer_wrap{width: 100%;}
+header,section,footer{margin: 0 auto;}
+/* -------------------------------------header------------------------------------------ */
+#header_wrap{height: 58px;border-bottom: 2px solid #e02025;}
+header{width: 980px;height: 58px;overflow: hidden;}
+header>h1{width: 133px;height: 40px;background:url(../img/猫眼-logo.png);margin-top: 8px;}
+
+/* -------------------------------------section------------------------------------------ */
+.tel,.random,.message,.paswd,.reqpwd,.reg,.xieyi{width: 560px;margin-left: 30px;}
+#section_wrap{height: 387px;border-bottom:1px solid #eeeeee;}
+section{width: 980px;height: 387px;overflow: hidden;}
+.section_form{width: 540px;height: 349px;margin-top: 38px;}
+.tel{height: 36px;}
+.tel>p{width: 80px;height: 36px;float: left;font-size: 12px;color: #333333;line-height: 36px;text-indent: 28px;}
+.tel>input{width:258px;height: 34px;float: left;border: 1px solid #aaaaaa;outline: 0;}
+.tel>div{width: 170px;height: 36px;float: left;font-size: 12px;color: #999999;line-height: 36px;text-indent: 8px;}
+.random{height: 39px;overflow: hidden;}
+.random>div:nth-child(1){width: 135px;height: 19px;background: #e7e7e7;border: 1px solid #aaaaaa;color: #333333;font-size: 12px;line-height: 19px;text-align: center;margin-top: 10px;margin-left: 80px;float: left;}
+.random>div:nth-child(2){width: 90px;height: 19px;border: 1px solid #aaaaaa;float: left;margin-top: 10px;margin-left: 30px;text-align: center;font-size: 12px;color: chocolate;line-height: 19px;}
+.message{height: 36px;margin-bottom: 16px;}
+.message>p{width: 80px;height: 36px;float: left;font-size: 12px;color: #333333;line-height: 36px;text-indent: 5px;}
+.message>input{width:258px;height: 34px;float: left;border: 1px solid #aaaaaa;outline: 0;}
+.message>div{width: 170px;height: 36px;float: left;font-size: 12px;color: #999999;line-height: 36px;text-indent: 8px;}
+.paswd{height: 71px;}
+.paswd>p{width: 80px;height: 36px;float: left;font-size: 12px;color: #333333;line-height: 36px;text-indent: 18px;}
+.paswd>input{width:258px;height: 34px;float: left;border: 1px solid #aaaaaa;outline: 0;}
+.paswd>div{width:215px;height: 36px;float: left;font-size: 12px;color: #999999;line-height: 36px;text-indent: 8px;display: none;}
+.paswd>strong{width: 260px;height: 20px;float: left;margin-top: 6px;margin-left: 80px;display:flex;justify-content: space-between;}
+.paswd>strong>em{width: 85px;height: 20px;background: #eeeeee;display: block;font-size: 12px;line-height: 20px;text-align: center;font-style: normal;font-weight: 100;color: #fff;}
+.reqpwd{height: 36px;margin-bottom: 16px;}
+.reqpwd>p{width: 80px;height: 36px;float: left;font-size: 12px;color: #333333;line-height: 36px;text-indent: 18px;}
+.reqpwd>input{width:258px;height: 34px;float: left;border: 1px solid #aaaaaa;outline: 0;}
+.reqpwd>div{width: 170px;height: 36px;float: left;font-size: 12px;color: #999999;line-height: 36px;text-indent: 8px;}
+.reg{height: 34px;}
+.reg>p{width: 180px;height: 34px;margin-left: 80px;line-height: 34px;text-align: center;color: #fff;font-size: 12px;border-radius: 5px;background: #e93b40;}
+.xieyi{height: 65px;overflow: hidden;}
+.xieyi>p{width: 120px;height: 13px;color: #ec454a;font-size: 13px;margin-left: 80px;margin-top: 16px;}
+/* -------------------------------------footer------------------------------------------ */
+#footer_wrap{height: 40px;}
+footer{width: 980px;height: 40px;overflow: hidden;}
+footer>p{width:400px;height: 17px;font-size: 12px;color:#999999;line-height: 17px;margin-left: 292px;margin-top: 22px;}
+footer>p>a{font-size: 12px;color: #999;line-height: 17px;text-decoration: none;}
+
+
+

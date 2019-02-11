@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;}
+#header_wrap,#section_wrap,#footer_wrap{width: 100%;}
+header,section,footer{margin: 0 auto;}
+/* ---------------------------header_wrap------------------------------------------------------- */
+#header_wrap{height: 86px;}
+header{height:86px;width:864px;overflow: hidden;}
+header>h1{width:234px;height: 47px;background: url(../img/猫眼-logo.png) no-repeat;margin-top: 39px;}
+/* ----------------------------section_wrap------------------------------------------------------ */
+#section_wrap{height:439px;}
+section{width: 864px;height: 439px;}
+.section_lf{width:590px;height:440px;float: left;}
+.section_rt{width:270px;height: 439px;float: right;}
+.section_rt>.section_form{width:270px;height: 238px;margin-top:30px;}
+.dlts{width: 266px;height: 36px;border:2px solid #f5d8a7;background: #fff6db;display: none;}
+.dlts>span{float: left;width: 17px;height: 17px;background: #ff8800;border-radius: 50%;margin-left: 10px;margin-top: 10px;}
+.dlts>span>em{display: block;width: 9px;height:3px;background: #fff6db;margin-left:4px;margin-top: 7px;}
+.dlts>p{width: 236px;height: 36px;line-height: 36px;float: right;font-size: 12px;color: #666666;}
+.login{width: 270px;height: 36px;}
+.login>p:nth-child(1){width:135px;height: 36px;float: left;color: #666666;font-size: 12px;line-height: 36px;}
+.login>p:nth-child(2){width: 103px;height: 36px;float: right;line-height: 36px;font-size: 12px;color: #666;overflow: hidden;}
+.login>p:nth-child(2)>strong{font-weight: 100;display: block;float: left;width: 93px;height: 36px;}
+.login>p:nth-child(2)>em{display: block;float: left;width:10px;height: 13px;background:url(../img/猫眼精灵图.png) -1268px -510px;margin-top: 9px;}
+.user{width: 268px;height: 34px;border: 1px solid #aaaaaa;background: #fff;}
+.user>em{width:18px;height:18px;background:url(../img/猫眼精灵图.png) -1250px -617px;float: left;margin-top: 8px;margin-left: 8px;margin-right: 8px;}
+.user>input{float: left;width:234px;height: 34px;line-height: 34px;border: 0;color: #757575;outline: 0;}
+.pas{width: 268px;height: 34px;border: 1px solid #aaaaaa;background: #fff;margin-top: 16px;}
+.pas>em{width:18px;height:18px;background:url(../img/猫眼精灵图.png) -1250px -527px;float: left;margin-top: 8px;margin-left: 8px;margin-right: 8px;}
+.pas>input{float: left;width:234px;height: 34px;line-height: 34px;border: 0;color: #757575;outline: 0;}
+.forget{width:62px;height:40px;line-height: 40px;color: #ec454a;font-size: 12px;float: right;}
+.dl{width: 270px;height:34px;float: left;background: #e42d32;color: #fff;}
+.dl>a{display: block;color: #fff;font-size: 12px;line-height: 34px;text-align: center;text-decoration: none;}
+.ts{width: 270px;height: 38px;float: left;}
+.ts>p{width: 84px;height: 38px;display: inline-block;font-size: 12px;line-height: 38px;color:#666666;}
+.ts>a{display: inline-block;width: 64px;height: 38px;font-size: 12px;color:#ec454a;}
+/* ---------------------------------footer_wrap------------------------------------------------- */
+#footer_wrap{height: 75px;overflow: hidden;}
+footer{width: 864px;height: 75px;overflow: hidden;}
+footer>div{width:460px;height: 75px;font-size: 12px;color: #cccccc;margin-top: 40px;margin-left: 260px;}
